@@ -9,4 +9,16 @@ public class Book {
 	this.author ="unknown author";
 	}
 
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public Object getTitle() {
+		return title;
+	}
+
 }
